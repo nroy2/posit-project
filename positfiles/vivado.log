@@ -1,0 +1,75 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:36:41 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Tue Mar  8 17:02:05 2022
+# Process ID: 274765
+# Current directory: /home/ecelrc/students/nroy1/posit/positfiles
+# Command line: vivado
+# Log file: /home/ecelrc/students/nroy1/posit/positfiles/vivado.log
+# Journal file: /home/ecelrc/students/nroy1/posit/positfiles/vivado.jou
+#-----------------------------------------------------------
+start_gui
+create_project Posit_project /home/ecelrc/students/nroy1/posit/Posit_project -part xc7z020clg484-1
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/usr/local/packages/xilinx_2018/vivado_hl/Vivado/2018.3/data/ip'.
+create_project: Time (s): cpu = 00:00:17 ; elapsed = 00:00:07 . Memory (MB): peak = 6861.398 ; gain = 89.488 ; free physical = 259124 ; free virtual = 360837
+set_property board_part em.avnet.com:zed:part0:1.4 [current_project]
+add_files -norecurse -scan_for_includes {/home/ecelrc/students/nroy1/posit/positfiles/DSR_right_N_S.v /home/ecelrc/students/nroy1/posit/positfiles/posit_adder_8bit_tb.v /home/ecelrc/students/nroy1/posit/positfiles/Posit_to_FP.v /home/ecelrc/students/nroy1/posit/positfiles/data_extract.v /home/ecelrc/students/nroy1/posit/positfiles/FP_to_Posit.v /home/ecelrc/students/nroy1/posit/positfiles/LOD_N.v /home/ecelrc/students/nroy1/posit/positfiles/posit_mult.v /home/ecelrc/students/nroy1/posit/positfiles/posit_mult_8bit_tb.v /home/ecelrc/students/nroy1/posit/positfiles/add_N.v /home/ecelrc/students/nroy1/posit/positfiles/posit_adder.v /home/ecelrc/students/nroy1/posit/positfiles/LZD_N.v /home/ecelrc/students/nroy1/posit/positfiles/sub_N.v /home/ecelrc/students/nroy1/posit/positfiles/DSR_left_N_S.v /home/ecelrc/students/nroy1/posit/positfiles/add_mantovf.v /home/ecelrc/students/nroy1/posit/positfiles/FP_to_Posit_tb.v /home/ecelrc/students/nroy1/posit/positfiles/Posit_to_FP_tb.v}
+INFO: [filemgmt 56-200] Setting project included file '/home/ecelrc/students/nroy1/posit/positfiles/data_extract.v' to type 'Verilog Header'.
+INFO: [filemgmt 56-200] Setting project included file '/home/ecelrc/students/nroy1/posit/positfiles/add_mantovf.v' to type 'Verilog Header'.
+INFO: [filemgmt 56-200] Setting project included file '/home/ecelrc/students/nroy1/posit/positfiles/DSR_left_N_S.v' to type 'Verilog Header'.
+INFO: [filemgmt 56-200] Setting project included file '/home/ecelrc/students/nroy1/posit/positfiles/DSR_right_N_S.v' to type 'Verilog Header'.
+INFO: [filemgmt 56-200] Setting project included file '/home/ecelrc/students/nroy1/posit/positfiles/LOD_N.v' to type 'Verilog Header'.
+INFO: [filemgmt 56-200] Setting project included file '/home/ecelrc/students/nroy1/posit/positfiles/LZD_N.v' to type 'Verilog Header'.
+INFO: [filemgmt 56-200] Setting project included file '/home/ecelrc/students/nroy1/posit/positfiles/add_N.v' to type 'Verilog Header'.
+INFO: [filemgmt 56-200] Setting project included file '/home/ecelrc/students/nroy1/posit/positfiles/sub_N.v' to type 'Verilog Header'.
+import_files -force -norecurse
+INFO: [filemgmt 20-348] Importing the appropriate files for fileset: 'sources_1'
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+set_property top FP_to_posit [current_fileset]
+update_compile_order -fileset sources_1
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in '/home/ecelrc/students/nroy1/posit/Posit_project/Posit_project.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'FP_to_posit_tb_v' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in '/home/ecelrc/students/nroy1/posit/Posit_project/Posit_project.sim/sim_1/behav/xsim'
+xvlog --incr --relax -prj FP_to_posit_tb_v_vlog.prj
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/ecelrc/students/nroy1/posit/Posit_project/Posit_project.srcs/sources_1/imports/positfiles/FP_to_Posit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module FP_to_posit
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/ecelrc/students/nroy1/posit/Posit_project/Posit_project.srcs/sources_1/imports/positfiles/FP_to_Posit_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module FP_to_posit_tb_v
+WARNING: [VRFC 10-3380] identifier 'outfile' is used before its declaration [/home/ecelrc/students/nroy1/posit/Posit_project/Posit_project.srcs/sources_1/imports/positfiles/FP_to_Posit_tb.v:36]
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/ecelrc/students/nroy1/posit/Posit_project/Posit_project.sim/sim_1/behav/xsim/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in '/home/ecelrc/students/nroy1/posit/Posit_project/Posit_project.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.3
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: /usr/local/packages/xilinx_2018/vivado_hl/Vivado/2018.3/bin/unwrapped/lnx64.o/xelab -wto 096cb80222914049b26a5db21f0e2e4c --incr --debug typical --relax --mt 8 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot FP_to_posit_tb_v_behav xil_defaultlib.FP_to_posit_tb_v xil_defaultlib.glbl -log elaborate.log 
+Using 8 slave threads.
+Starting static elaboration
+ERROR: [VRFC 10-2063] Module <LOD_N> not found while processing module instance <uut> [/home/ecelrc/students/nroy1/posit/Posit_project/Posit_project.srcs/sources_1/imports/positfiles/FP_to_Posit.v:34]
+ERROR: [VRFC 10-2063] Module <DSR_left_N_S> not found while processing module instance <ls> [/home/ecelrc/students/nroy1/posit/Posit_project/Posit_project.srcs/sources_1/imports/positfiles/FP_to_Posit.v:37]
+ERROR: [VRFC 10-2063] Module <DSR_right_N_S> not found while processing module instance <dsr2> [/home/ecelrc/students/nroy1/posit/Posit_project/Posit_project.srcs/sources_1/imports/positfiles/FP_to_Posit.v:56]
+ERROR: [XSIM 43-3322] Static elaboration of top level Verilog design unit(s) in library work failed.
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+INFO: [USF-XSim-99] Step results log file:'/home/ecelrc/students/nroy1/posit/Posit_project/Posit_project.sim/sim_1/behav/xsim/elaborate.log'
+ERROR: [USF-XSim-62] 'elaborate' step failed with error(s). Please check the Tcl console output or '/home/ecelrc/students/nroy1/posit/Posit_project/Posit_project.sim/sim_1/behav/xsim/elaborate.log' file for more information.
+ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation.
+ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.
+set_property is_global_include true [get_files  /home/ecelrc/students/nroy1/posit/Posit_project/Posit_project.srcs/sources_1/imports/positfiles/data_extract.v]
+update_compile_order -fileset sources_1
+set_property is_global_include true [get_files  /home/ecelrc/students/nroy1/posit/Posit_project/Posit_project.srcs/sources_1/imports/positfiles/LOD_N.v]
+update_compile_order -fileset sources_1
+set_property is_global_include false [get_files  /home/ecelrc/students/nroy1/posit/Posit_project/Posit_project.srcs/sources_1/imports/positfiles/LOD_N.v]
+set_property is_global_include false [get_files  /home/ecelrc/students/nroy1/posit/Posit_project/Posit_project.srcs/sources_1/imports/positfiles/data_extract.v]
+update_compile_order -fileset sources_1
+exit
+INFO: [Common 17-206] Exiting Vivado at Tue Mar  8 17:09:34 2022...

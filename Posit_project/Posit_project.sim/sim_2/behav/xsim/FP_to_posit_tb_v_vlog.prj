@@ -1,0 +1,13 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../Posit_project.srcs/sources_1/imports/positfiles/DSR_left_N_S.v" \
+"../../../../Posit_project.srcs/sources_1/imports/positfiles/DSR_right_N_S.v" \
+"../../../../Posit_project.srcs/sources_1/imports/positfiles/FP_to_Posit.v" \
+"../../../../Posit_project.srcs/sources_1/imports/positfiles/LOD_N.v" \
+"../../../../Posit_project.srcs/sim_2/imports/positfiles/FP_to_Posit_tb.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

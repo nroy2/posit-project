@@ -1,0 +1,28 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:36:41 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Tue Apr 19 19:45:20 2022
+# Process ID: 161612
+# Current directory: /home/ecelrc/students/nroy1/posit
+# Command line: vivado
+# Log file: /home/ecelrc/students/nroy1/posit/vivado.log
+# Journal file: /home/ecelrc/students/nroy1/posit/vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project /home/ecelrc/students/nroy1/posit/Posit_project/Posit_project.xpr
+update_compile_order -fileset sources_1
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top posit_mult [current_fileset]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sources_1
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top posit_mult_8bit_tb_v [get_filesets sim_2]
+set_property top_lib xil_defaultlib [get_filesets sim_2]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sim_2
+reset_run synth_1

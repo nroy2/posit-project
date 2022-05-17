@@ -1,0 +1,7 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"posit_mult_8bit_tb_v_func_impl.v" \
+"../../../../../Posit_project.srcs/sim_2/imports/positfiles/posit_mult_8bit_tb.v" \
+
+# Do not sort compile order
+nosort

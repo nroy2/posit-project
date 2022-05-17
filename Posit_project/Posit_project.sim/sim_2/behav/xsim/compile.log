@@ -1,0 +1,12 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/ecelrc/students/nroy1/posit/Posit_project/Posit_project.srcs/sources_1/imports/positfiles/DSR_left_N_S.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DSR_left_N_S
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/ecelrc/students/nroy1/posit/Posit_project/Posit_project.srcs/sources_1/imports/positfiles/DSR_right_N_S.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DSR_right_N_S
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/ecelrc/students/nroy1/posit/Posit_project/Posit_project.srcs/sources_1/imports/positfiles/FP_to_Posit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module FP_to_posit
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/ecelrc/students/nroy1/posit/Posit_project/Posit_project.srcs/sources_1/imports/positfiles/LOD_N.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module LOD_N
+INFO: [VRFC 10-311] analyzing module LOD
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/ecelrc/students/nroy1/posit/Posit_project/Posit_project.srcs/sim_2/imports/positfiles/FP_to_Posit_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module FP_to_posit_tb_v
+WARNING: [VRFC 10-3380] identifier 'outfile' is used before its declaration [/home/ecelrc/students/nroy1/posit/Posit_project/Posit_project.srcs/sim_2/imports/positfiles/FP_to_Posit_tb.v:36]

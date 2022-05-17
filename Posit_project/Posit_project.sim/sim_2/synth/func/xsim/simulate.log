@@ -1,0 +1,5 @@
+Vivado Simulator 2018.3
+Time resolution is 1 ps
+WARNING: File Pin1_8bit.txt referenced on /home/ecelrc/students/nroy1/posit/Posit_project/Posit_project.srcs/sim_2/imports/positfiles/posit_mult_8bit_tb.v at line 31 cannot be opened for reading. Please ensure that this file is available in the current working directory.
+WARNING: File Pin2_8bit.txt referenced on /home/ecelrc/students/nroy1/posit/Posit_project/Posit_project.srcs/sim_2/imports/positfiles/posit_mult_8bit_tb.v at line 32 cannot be opened for reading. Please ensure that this file is available in the current working directory.
+WARNING: File Pout_8bit_ES4.txt referenced on /home/ecelrc/students/nroy1/posit/Posit_project/Posit_project.srcs/sim_2/imports/positfiles/posit_mult_8bit_tb.v at line 67 cannot be opened for reading. Please ensure that this file is available in the current working directory.

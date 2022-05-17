@@ -1,0 +1,99 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:36:41 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Tue Apr 19 17:46:23 2022
+# Process ID: 91403
+# Current directory: /home/ecelrc/students/nroy1/posit
+# Command line: vivado
+# Log file: /home/ecelrc/students/nroy1/posit/vivado.log
+# Journal file: /home/ecelrc/students/nroy1/posit/vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project /home/ecelrc/students/nroy1/posit/Posit_project/Posit_project.xpr
+update_compile_order -fileset sources_1
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top posit_adder [current_fileset]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sources_1
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top posit_adder_8bit_tb_v [get_filesets sim_2]
+set_property top_lib xil_defaultlib [get_filesets sim_2]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sim_2
+reset_run synth_1
+launch_runs synth_1 -jobs 32
+wait_on_run synth_1
+launch_runs impl_1 -jobs 32
+wait_on_run impl_1
+open_run impl_1
+set_property -name {xsim.simulate.saif} -value {power_Posit_Adder_impl.saif} -objects [get_filesets sim_2]
+launch_simulation -simset [get_filesets sim_2 ] -mode post-implementation -type functional
+open_wave_config /home/ecelrc/students/nroy1/posit/Posit_project/FP_to_posit_tb_v_behav.wcfg
+source posit_adder_8bit_tb_v.tcl
+set_operating_conditions -process maximum
+read_saif {/home/ecelrc/students/nroy1/posit/Posit_project/Posit_project.sim/sim_2/impl/func/xsim/power_Posit_Adder_impl.saif}
+report_power -file {/home/ecelrc/students/nroy1/posit/Posit_project/Power_Posit_Adder_implementation.pwr} -name {power_1}
+close_design
+close_sim
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top Posit_to_FP [current_fileset]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sources_1
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top Posit_to_FP_tb_v [get_filesets sim_2]
+set_property top_lib xil_defaultlib [get_filesets sim_2]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sim_2
+reset_run synth_1
+launch_runs synth_1 -jobs 32
+wait_on_run synth_1
+launch_runs impl_1 -jobs 32
+wait_on_run impl_1
+open_run impl_1
+set_property -name {xsim.simulate.saif} -value {power_Posit_to_FP_impl.saif} -objects [get_filesets sim_2]
+launch_simulation -simset [get_filesets sim_2 ] -mode post-implementation -type functional
+open_wave_config /home/ecelrc/students/nroy1/posit/Posit_project/FP_to_posit_tb_v_behav.wcfg
+source Posit_to_FP_tb_v.tcl
+set_operating_conditions -process maximum
+read_saif {/home/ecelrc/students/nroy1/posit/Posit_project/Posit_project.sim/sim_2/impl/func/xsim/power_Posit_to_FP_impl.saif}
+report_power -name {power_1}
+read_saif {/home/ecelrc/students/nroy1/posit/Posit_project/Posit_project.sim/sim_2/impl/func/xsim/power_Posit_to_FP_impl.saif}
+report_power -file {/home/ecelrc/students/nroy1/posit/Posit_project/Power_Posit_to_FP_implementation.pwr} -name {power_2}
+close_design
+close_sim
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top FP_to_posit [current_fileset]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sources_1
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top FP_to_posit_tb_v [get_filesets sim_2]
+set_property top_lib xil_defaultlib [get_filesets sim_2]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sim_2
+reset_run synth_1
+launch_runs synth_1 -jobs 32
+wait_on_run synth_1
+launch_runs impl_1 -jobs 32
+wait_on_run impl_1
+open_run impl_1
+set_property -name {xsim.simulate.saif} -value {power_FP_to_Posit_impl.saif} -objects [get_filesets sim_2]
+launch_simulation -simset [get_filesets sim_2 ] -mode post-implementation -type functional
+open_wave_config /home/ecelrc/students/nroy1/posit/Posit_project/FP_to_posit_tb_v_behav.wcfg
+source FP_to_posit_tb_v.tcl
+set_operating_conditions -process maximum
+read_saif {/home/ecelrc/students/nroy1/posit/Posit_project/Posit_project.sim/sim_2/impl/func/xsim/power_FP_to_Posit_impl.saif}
+report_power -file {/home/ecelrc/students/nroy1/posit/Posit_project/Power_FP_to_Posit_implementation.pwr} -name {power_1}
+close_sim

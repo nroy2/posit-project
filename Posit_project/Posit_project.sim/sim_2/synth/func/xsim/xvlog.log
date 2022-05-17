@@ -1,0 +1,7 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/ecelrc/students/nroy1/posit/Posit_project/Posit_project.sim/sim_2/synth/func/xsim/posit_mult_8bit_tb_v_func_synth.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module posit_mult
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/ecelrc/students/nroy1/posit/Posit_project/Posit_project.srcs/sim_2/imports/positfiles/posit_mult_8bit_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module posit_mult_8bit_tb_v
+INFO: [VRFC 10-2458] undeclared symbol inf, assumed default net type wire [/home/ecelrc/students/nroy1/posit/Posit_project/Posit_project.srcs/sim_2/imports/positfiles/posit_mult_8bit_tb.v:27]
+INFO: [VRFC 10-2458] undeclared symbol zero, assumed default net type wire [/home/ecelrc/students/nroy1/posit/Posit_project/Posit_project.srcs/sim_2/imports/positfiles/posit_mult_8bit_tb.v:27]

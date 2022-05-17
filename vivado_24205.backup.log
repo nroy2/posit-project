@@ -1,0 +1,302 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:36:41 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Tue Apr 19 15:53:50 2022
+# Process ID: 24205
+# Current directory: /home/ecelrc/students/nroy1/posit
+# Command line: vivado
+# Log file: /home/ecelrc/students/nroy1/posit/vivado.log
+# Journal file: /home/ecelrc/students/nroy1/posit/vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project /home/ecelrc/students/nroy1/posit/Posit_project/Posit_project.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/usr/local/packages/xilinx_2018/vivado_hl/Vivado/2018.3/data/ip'.
+open_project: Time (s): cpu = 00:00:19 ; elapsed = 00:00:08 . Memory (MB): peak = 6761.914 ; gain = 159.527 ; free physical = 154416 ; free virtual = 322569
+update_compile_order -fileset sources_1
+file mkdir /home/ecelrc/students/nroy1/posit/Posit_project/Posit_project.srcs/constrs_1
+file mkdir /home/ecelrc/students/nroy1/posit/Posit_project/Posit_project.srcs/constrs_1/new
+close [ open /home/ecelrc/students/nroy1/posit/Posit_project/Posit_project.srcs/constrs_1/new/constraint.xdc w ]
+add_files -fileset constrs_1 /home/ecelrc/students/nroy1/posit/Posit_project/Posit_project.srcs/constrs_1/new/constraint.xdc
+reset_run synth_1
+launch_runs synth_1 -jobs 32
+WARNING: [HDL 9-3756] overwriting previous definition of module 'DSR_left_N_S' [/home/ecelrc/students/nroy1/posit/Posit_project/Posit_project.srcs/sources_1/imports/positfiles/DSR_left_N_S.v:1]
+WARNING: [HDL 9-3756] overwriting previous definition of module 'DSR_right_N_S' [/home/ecelrc/students/nroy1/posit/Posit_project/Posit_project.srcs/sources_1/imports/positfiles/DSR_right_N_S.v:1]
+WARNING: [HDL 9-3756] overwriting previous definition of module 'LOD_N' [/home/ecelrc/students/nroy1/posit/Posit_project/Posit_project.srcs/sources_1/imports/positfiles/LOD_N.v:1]
+WARNING: [HDL 9-3756] overwriting previous definition of module 'LOD' [/home/ecelrc/students/nroy1/posit/Posit_project/Posit_project.srcs/sources_1/imports/positfiles/LOD_N.v:22]
+WARNING: [HDL 9-3756] overwriting previous definition of module 'LZD_N' [/home/ecelrc/students/nroy1/posit/Posit_project/Posit_project.srcs/sources_1/imports/positfiles/LZD_N.v:1]
+WARNING: [HDL 9-3756] overwriting previous definition of module 'LZD' [/home/ecelrc/students/nroy1/posit/Posit_project/Posit_project.srcs/sources_1/imports/positfiles/LZD_N.v:22]
+WARNING: [HDL 9-3756] overwriting previous definition of module 'add_N' [/home/ecelrc/students/nroy1/posit/Posit_project/Posit_project.srcs/sources_1/imports/positfiles/add_N.v:1]
+WARNING: [HDL 9-3756] overwriting previous definition of module 'add_mantovf' [/home/ecelrc/students/nroy1/posit/Posit_project/Posit_project.srcs/sources_1/imports/positfiles/add_mantovf.v:1]
+WARNING: [HDL 9-3756] overwriting previous definition of module 'data_extract' [/home/ecelrc/students/nroy1/posit/Posit_project/Posit_project.srcs/sources_1/imports/positfiles/data_extract.v:1]
+WARNING: [HDL 9-3756] overwriting previous definition of module 'sub_N' [/home/ecelrc/students/nroy1/posit/Posit_project/Posit_project.srcs/sources_1/imports/positfiles/sub_N.v:1]
+WARNING: [filemgmt 20-644] Circular Reference Found: '.xil_defaultlib.LOD' [/home/ecelrc/students/nroy1/posit/Posit_project/Posit_project.srcs/sources_1/imports/positfiles/LOD_N.v:0] -->> '.xil_defaultlib.LOD' [/home/ecelrc/students/nroy1/posit/Posit_project/Posit_project.srcs/sources_1/imports/positfiles/LOD_N.v:22]
+WARNING: [filemgmt 20-644] Circular Reference Found: '.xil_defaultlib.LZD' [/home/ecelrc/students/nroy1/posit/Posit_project/Posit_project.srcs/sources_1/imports/positfiles/LZD_N.v:0] -->> '.xil_defaultlib.LZD' [/home/ecelrc/students/nroy1/posit/Posit_project/Posit_project.srcs/sources_1/imports/positfiles/LZD_N.v:22]
+WARNING: [filemgmt 20-644] Circular Reference Found: '.xil_defaultlib.LOD' [/home/ecelrc/students/nroy1/posit/Posit_project/Posit_project.srcs/sources_1/imports/positfiles/LOD_N.v:0] -->> '.xil_defaultlib.LOD' [/home/ecelrc/students/nroy1/posit/Posit_project/Posit_project.srcs/sources_1/imports/positfiles/LOD_N.v:22]
+WARNING: [filemgmt 20-644] Circular Reference Found: '.xil_defaultlib.LOD' [/home/ecelrc/students/nroy1/posit/Posit_project/Posit_project.srcs/sources_1/imports/positfiles/LOD_N.v:0] -->> '.xil_defaultlib.LOD' [/home/ecelrc/students/nroy1/posit/Posit_project/Posit_project.srcs/sources_1/imports/positfiles/LOD_N.v:22]
+WARNING: [filemgmt 20-644] Circular Reference Found: '.xil_defaultlib.LZD' [/home/ecelrc/students/nroy1/posit/Posit_project/Posit_project.srcs/sources_1/imports/positfiles/LZD_N.v:0] -->> '.xil_defaultlib.LZD' [/home/ecelrc/students/nroy1/posit/Posit_project/Posit_project.srcs/sources_1/imports/positfiles/LZD_N.v:22]
+WARNING: [filemgmt 20-644] Circular Reference Found: '.xil_defaultlib.LOD' [/home/ecelrc/students/nroy1/posit/Posit_project/Posit_project.srcs/sources_1/imports/positfiles/LOD_N.v:0] -->> '.xil_defaultlib.LOD' [/home/ecelrc/students/nroy1/posit/Posit_project/Posit_project.srcs/sources_1/imports/positfiles/LOD_N.v:22]
+WARNING: [filemgmt 20-644] Circular Reference Found: '.xil_defaultlib.LZD' [/home/ecelrc/students/nroy1/posit/Posit_project/Posit_project.srcs/sources_1/imports/positfiles/LZD_N.v:0] -->> '.xil_defaultlib.LZD' [/home/ecelrc/students/nroy1/posit/Posit_project/Posit_project.srcs/sources_1/imports/positfiles/LZD_N.v:22]
+WARNING: [filemgmt 20-1318] Duplicate Design Unit 'DSR_left_N_S()' found in library 'xil_defaultlib'
+	(Active) Duplicate found at line 1 of file /home/ecelrc/students/nroy1/posit/Posit_project/Posit_project.srcs/sources_1/imports/positfiles/DSR_left_N_S.v
+Duplicate found at line 1 of file /home/ecelrc/students/nroy1/posit/Posit_project/Posit_project.srcs/sources_1/imports/positfiles/posit_adder.v
+WARNING: [filemgmt 20-1318] Duplicate Design Unit 'DSR_right_N_S()' found in library 'xil_defaultlib'
+	(Active) Duplicate found at line 1 of file /home/ecelrc/students/nroy1/posit/Posit_project/Posit_project.srcs/sources_1/imports/positfiles/DSR_right_N_S.v
+Duplicate found at line 1 of file /home/ecelrc/students/nroy1/posit/Posit_project/Posit_project.srcs/sources_1/imports/positfiles/posit_adder.v
+WARNING: [filemgmt 20-1318] Duplicate Design Unit 'LOD_N()' found in library 'xil_defaultlib'
+	(Active) Duplicate found at line 1 of file /home/ecelrc/students/nroy1/posit/Posit_project/Posit_project.srcs/sources_1/imports/positfiles/LOD_N.v
+Duplicate found at line 1 of file /home/ecelrc/students/nroy1/posit/Posit_project/Posit_project.srcs/sources_1/imports/positfiles/posit_adder.v
+WARNING: [filemgmt 20-1318] Duplicate Design Unit 'LOD()' found in library 'xil_defaultlib'
+	(Active) Duplicate found at line 22 of file /home/ecelrc/students/nroy1/posit/Posit_project/Posit_project.srcs/sources_1/imports/positfiles/LOD_N.v
+Duplicate found at line 22 of file /home/ecelrc/students/nroy1/posit/Posit_project/Posit_project.srcs/sources_1/imports/positfiles/posit_adder.v
+WARNING: [filemgmt 20-1318] Duplicate Design Unit 'LZD_N()' found in library 'xil_defaultlib'
+	(Active) Duplicate found at line 1 of file /home/ecelrc/students/nroy1/posit/Posit_project/Posit_project.srcs/sources_1/imports/positfiles/LZD_N.v
+Duplicate found at line 1 of file /home/ecelrc/students/nroy1/posit/Posit_project/Posit_project.srcs/sources_1/imports/positfiles/posit_adder.v
+WARNING: [filemgmt 20-1318] Duplicate Design Unit 'LZD()' found in library 'xil_defaultlib'
+	(Active) Duplicate found at line 22 of file /home/ecelrc/students/nroy1/posit/Posit_project/Posit_project.srcs/sources_1/imports/positfiles/LZD_N.v
+Duplicate found at line 22 of file /home/ecelrc/students/nroy1/posit/Posit_project/Posit_project.srcs/sources_1/imports/positfiles/posit_adder.v
+WARNING: [filemgmt 20-1318] Duplicate Design Unit 'add_N()' found in library 'xil_defaultlib'
+	(Active) Duplicate found at line 1 of file /home/ecelrc/students/nroy1/posit/Posit_project/Posit_project.srcs/sources_1/imports/positfiles/add_N.v
+Duplicate found at line 1 of file /home/ecelrc/students/nroy1/posit/Posit_project/Posit_project.srcs/sources_1/imports/positfiles/posit_adder.v
+WARNING: [filemgmt 20-1318] Duplicate Design Unit 'add_mantovf()' found in library 'xil_defaultlib'
+	(Active) Duplicate found at line 1 of file /home/ecelrc/students/nroy1/posit/Posit_project/Posit_project.srcs/sources_1/imports/positfiles/add_mantovf.v
+Duplicate found at line 1 of file /home/ecelrc/students/nroy1/posit/Posit_project/Posit_project.srcs/sources_1/imports/positfiles/posit_adder.v
+WARNING: [filemgmt 20-1318] Duplicate Design Unit 'data_extract()' found in library 'xil_defaultlib'
+	(Active) Duplicate found at line 1 of file /home/ecelrc/students/nroy1/posit/Posit_project/Posit_project.srcs/sources_1/imports/positfiles/data_extract.v
+Duplicate found at line 1 of file /home/ecelrc/students/nroy1/posit/Posit_project/Posit_project.srcs/sources_1/imports/positfiles/posit_adder.v
+WARNING: [filemgmt 20-1318] Duplicate Design Unit 'sub_N()' found in library 'xil_defaultlib'
+Duplicate found at line 1 of file /home/ecelrc/students/nroy1/posit/Posit_project/Posit_project.srcs/sources_1/imports/positfiles/posit_adder.v
+	(Active) Duplicate found at line 1 of file /home/ecelrc/students/nroy1/posit/Posit_project/Posit_project.srcs/sources_1/imports/positfiles/sub_N.v
+[Tue Apr 19 16:03:28 2022] Launched synth_1...
+Run output will be captured here: /home/ecelrc/students/nroy1/posit/Posit_project/Posit_project.runs/synth_1/runme.log
+launch_runs impl_1 -jobs 32
+[Tue Apr 19 16:04:24 2022] Launched impl_1...
+Run output will be captured here: /home/ecelrc/students/nroy1/posit/Posit_project/Posit_project.runs/impl_1/runme.log
+open_run impl_1
+INFO: [Netlist 29-17] Analyzing 16 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2018.3
+INFO: [Device 21-403] Loading part xc7z020clg484-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Timing 38-478] Restoring timing data from binary archive.
+INFO: [Timing 38-479] Binary timing data restore complete.
+INFO: [Project 1-856] Restoring constraints from binary archive.
+INFO: [Project 1-853] Binary constraint restore complete.
+Reading XDEF placement.
+Reading placer database...
+Reading XDEF routing.
+Read XDEF File: Time (s): cpu = 00:00:00.09 ; elapsed = 00:00:00.10 . Memory (MB): peak = 7450.664 ; gain = 0.000 ; free physical = 153881 ; free virtual = 322043
+Restored from archive | CPU: 0.090000 secs | Memory: 0.511345 MB |
+Finished XDEF File Restore: Time (s): cpu = 00:00:00.09 ; elapsed = 00:00:00.10 . Memory (MB): peak = 7450.664 ; gain = 0.000 ; free physical = 153881 ; free virtual = 322043
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 7450.664 ; gain = 0.000 ; free physical = 153881 ; free virtual = 322043
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+open_run: Time (s): cpu = 00:00:28 ; elapsed = 00:00:16 . Memory (MB): peak = 7694.781 ; gain = 878.750 ; free physical = 153771 ; free virtual = 321933
+launch_simulation -simset [get_filesets sim_2 ] -mode post-implementation -type functional
+INFO: [Vivado 12-5682] Launching post-implementation functional simulation in '/home/ecelrc/students/nroy1/posit/Posit_project/Posit_project.sim/sim_2/impl/func/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_2'
+INFO: [SIM-utils-31] Writing simulation netlist file for design 'impl_1'...
+INFO: [SIM-utils-32] write_verilog -mode funcsim -nolib -force -file "/home/ecelrc/students/nroy1/posit/Posit_project/Posit_project.sim/sim_2/impl/func/xsim/posit_mult_8bit_tb_v_func_impl.v"
+INFO: [SIM-utils-36] Netlist generated:/home/ecelrc/students/nroy1/posit/Posit_project/Posit_project.sim/sim_2/impl/func/xsim/posit_mult_8bit_tb_v_func_impl.v
+INFO: [SIM-utils-54] Inspecting design source files for 'posit_mult_8bit_tb_v' in fileset 'sim_2'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in '/home/ecelrc/students/nroy1/posit/Posit_project/Posit_project.sim/sim_2/impl/func/xsim'
+xvlog --incr --relax -prj posit_mult_8bit_tb_v_vlog.prj
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/ecelrc/students/nroy1/posit/Posit_project/Posit_project.sim/sim_2/impl/func/xsim/posit_mult_8bit_tb_v_func_impl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module posit_mult
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/ecelrc/students/nroy1/posit/Posit_project/Posit_project.srcs/sim_2/imports/positfiles/posit_mult_8bit_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module posit_mult_8bit_tb_v
+INFO: [VRFC 10-2458] undeclared symbol inf, assumed default net type wire [/home/ecelrc/students/nroy1/posit/Posit_project/Posit_project.srcs/sim_2/imports/positfiles/posit_mult_8bit_tb.v:27]
+INFO: [VRFC 10-2458] undeclared symbol zero, assumed default net type wire [/home/ecelrc/students/nroy1/posit/Posit_project/Posit_project.srcs/sim_2/imports/positfiles/posit_mult_8bit_tb.v:27]
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in '/home/ecelrc/students/nroy1/posit/Posit_project/Posit_project.sim/sim_2/impl/func/xsim'
+Vivado Simulator 2018.3
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: /usr/local/packages/xilinx_2018/vivado_hl/Vivado/2018.3/bin/unwrapped/lnx64.o/xelab -wto b3607008cb68435185361db4ce132f70 --incr --debug typical --relax --mt 8 -L xil_defaultlib -L unisims_ver -L secureip --snapshot posit_mult_8bit_tb_v_func_impl xil_defaultlib.posit_mult_8bit_tb_v xil_defaultlib.glbl -log elaborate.log 
+Using 8 slave threads.
+Starting static elaboration
+WARNING: [VRFC 10-3091] actual bit length 8 differs from formal bit length 16 for port 'in1' [/home/ecelrc/students/nroy1/posit/Posit_project/Posit_project.srcs/sim_2/imports/positfiles/posit_mult_8bit_tb.v:27]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module unisims_ver.OBUF
+Compiling module unisims_ver.IBUF
+Compiling module unisims_ver.LUT4
+Compiling module unisims_ver.DSP48E1(ACASCREG=0,ALUMODEREG=0,...
+Compiling module unisims_ver.LUT6
+Compiling module unisims_ver.x_lut3_mux8
+Compiling module unisims_ver.LUT3
+Compiling module unisims_ver.CARRY4
+Compiling module unisims_ver.LUT5
+Compiling module unisims_ver.x_lut1_mux2
+Compiling module unisims_ver.LUT1
+Compiling module unisims_ver.x_lut2_mux4
+Compiling module unisims_ver.LUT2
+Compiling module xil_defaultlib.posit_mult
+Compiling module xil_defaultlib.posit_mult_8bit_tb_v
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot posit_mult_8bit_tb_v_func_impl
+INFO: [USF-XSim-69] 'elaborate' step finished in '3' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in '/home/ecelrc/students/nroy1/posit/Posit_project/Posit_project.sim/sim_2/impl/func/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "posit_mult_8bit_tb_v_func_impl -key {Post-Implementation:sim_2:Functional:posit_mult_8bit_tb_v} -tclbatch {posit_mult_8bit_tb_v.tcl} -view {/home/ecelrc/students/nroy1/posit/Posit_project/FP_to_posit_tb_v_behav.wcfg} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2018.3
+Time resolution is 1 ps
+open_wave_config /home/ecelrc/students/nroy1/posit/Posit_project/FP_to_posit_tb_v_behav.wcfg
+WARNING: Simulation object /FP_to_posit_tb_v/in was not found in the design.
+WARNING: Simulation object /FP_to_posit_tb_v/clk was not found in the design.
+WARNING: Simulation object /FP_to_posit_tb_v/out was not found in the design.
+WARNING: Simulation object /FP_to_posit_tb_v/outfile was not found in the design.
+WARNING: Simulation object /FP_to_posit_tb_v/N was not found in the design.
+WARNING: Simulation object /FP_to_posit_tb_v/E was not found in the design.
+WARNING: Simulation object /FP_to_posit_tb_v/Bs was not found in the design.
+WARNING: Simulation object /FP_to_posit_tb_v/es was not found in the design.
+source posit_mult_8bit_tb_v.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# open_saif "power_Posit_Mult_impl.saif"
+# log_saif [get_objects -r *]
+# run 1000ns
+WARNING: File Pin1_8bit.txt referenced on /home/ecelrc/students/nroy1/posit/Posit_project/Posit_project.srcs/sim_2/imports/positfiles/posit_mult_8bit_tb.v at line 31 cannot be opened for reading. Please ensure that this file is available in the current working directory.
+WARNING: File Pin2_8bit.txt referenced on /home/ecelrc/students/nroy1/posit/Posit_project/Posit_project.srcs/sim_2/imports/positfiles/posit_mult_8bit_tb.v at line 32 cannot be opened for reading. Please ensure that this file is available in the current working directory.
+WARNING: File Pout_8bit_ES4.txt referenced on /home/ecelrc/students/nroy1/posit/Posit_project/Posit_project.srcs/sim_2/imports/positfiles/posit_mult_8bit_tb.v at line 67 cannot be opened for reading. Please ensure that this file is available in the current working directory.
+# close_saif
+xsim: Time (s): cpu = 00:00:09 ; elapsed = 00:00:08 . Memory (MB): peak = 7840.652 ; gain = 38.832 ; free physical = 153461 ; free virtual = 321624
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'posit_mult_8bit_tb_v_func_impl' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:15 ; elapsed = 00:00:14 . Memory (MB): peak = 7840.652 ; gain = 47.840 ; free physical = 153461 ; free virtual = 321624
+set_operating_conditions -process maximum
+read_saif {/home/ecelrc/students/nroy1/posit/Posit_project/Posit_project.sim/sim_2/impl/func/xsim/power_Posit_Mult_impl.saif}
+INFO: [Power 33-167] Parsing SAIF file /home/ecelrc/students/nroy1/posit/Posit_project/Posit_project.sim/sim_2/impl/func/xsim/power_Posit_Mult_impl.saif
+WARNING: [Power 33-288] Design net 'in1[0]' is in 'X' state more than 50% of simulation time.  If this is not desired, please provide correct activity rates for better power accuracy.
+WARNING: [Power 33-288] Design net 'in1[1]' is in 'X' state more than 50% of simulation time.  If this is not desired, please provide correct activity rates for better power accuracy.
+WARNING: [Power 33-288] Design net 'in1[2]' is in 'X' state more than 50% of simulation time.  If this is not desired, please provide correct activity rates for better power accuracy.
+WARNING: [Power 33-288] Design net 'in1[3]' is in 'X' state more than 50% of simulation time.  If this is not desired, please provide correct activity rates for better power accuracy.
+WARNING: [Power 33-288] Design net 'in1[4]' is in 'X' state more than 50% of simulation time.  If this is not desired, please provide correct activity rates for better power accuracy.
+WARNING: [Power 33-288] Design net 'in1[5]' is in 'X' state more than 50% of simulation time.  If this is not desired, please provide correct activity rates for better power accuracy.
+WARNING: [Power 33-288] Design net 'in1[6]' is in 'X' state more than 50% of simulation time.  If this is not desired, please provide correct activity rates for better power accuracy.
+WARNING: [Power 33-288] Design net 'in1[7]' is in 'X' state more than 50% of simulation time.  If this is not desired, please provide correct activity rates for better power accuracy.
+WARNING: [Power 33-288] Design net 'in2[0]' is in 'X' state more than 50% of simulation time.  If this is not desired, please provide correct activity rates for better power accuracy.
+WARNING: [Power 33-288] Design net 'in2[1]' is in 'X' state more than 50% of simulation time.  If this is not desired, please provide correct activity rates for better power accuracy.
+WARNING: [Power 33-288] Design net 'in2[2]' is in 'X' state more than 50% of simulation time.  If this is not desired, please provide correct activity rates for better power accuracy.
+WARNING: [Power 33-288] Design net 'in2[3]' is in 'X' state more than 50% of simulation time.  If this is not desired, please provide correct activity rates for better power accuracy.
+WARNING: [Power 33-288] Design net 'in2[4]' is in 'X' state more than 50% of simulation time.  If this is not desired, please provide correct activity rates for better power accuracy.
+WARNING: [Power 33-288] Design net 'in2[5]' is in 'X' state more than 50% of simulation time.  If this is not desired, please provide correct activity rates for better power accuracy.
+WARNING: [Power 33-288] Design net 'in2[6]' is in 'X' state more than 50% of simulation time.  If this is not desired, please provide correct activity rates for better power accuracy.
+WARNING: [Power 33-288] Design net 'in2[7]' is in 'X' state more than 50% of simulation time.  If this is not desired, please provide correct activity rates for better power accuracy.
+WARNING: [Power 33-288] Design net 'out[0]' is in 'X' state more than 50% of simulation time.  If this is not desired, please provide correct activity rates for better power accuracy.
+WARNING: [Power 33-288] Design net 'out[1]' is in 'X' state more than 50% of simulation time.  If this is not desired, please provide correct activity rates for better power accuracy.
+WARNING: [Power 33-288] Design net 'out[2]' is in 'X' state more than 50% of simulation time.  If this is not desired, please provide correct activity rates for better power accuracy.
+WARNING: [Power 33-288] Design net 'out[3]' is in 'X' state more than 50% of simulation time.  If this is not desired, please provide correct activity rates for better power accuracy.
+WARNING: [Power 33-288] Design net 'out[4]' is in 'X' state more than 50% of simulation time.  If this is not desired, please provide correct activity rates for better power accuracy.
+WARNING: [Power 33-288] Design net 'out[5]' is in 'X' state more than 50% of simulation time.  If this is not desired, please provide correct activity rates for better power accuracy.
+WARNING: [Power 33-288] Design net 'out[6]' is in 'X' state more than 50% of simulation time.  If this is not desired, please provide correct activity rates for better power accuracy.
+WARNING: [Power 33-288] Design net 'out[7]' is in 'X' state more than 50% of simulation time.  If this is not desired, please provide correct activity rates for better power accuracy.
+WARNING: [Power 33-288] Design net 'inf' is in 'X' state more than 50% of simulation time.  If this is not desired, please provide correct activity rates for better power accuracy.
+WARNING: [Power 33-288] Design net 'zero' is in 'X' state more than 50% of simulation time.  If this is not desired, please provide correct activity rates for better power accuracy.
+WARNING: [Power 33-288] Design net 'in1[0]' is in 'X' state more than 50% of simulation time.  If this is not desired, please provide correct activity rates for better power accuracy.
+WARNING: [Power 33-288] Design net 'in1[1]' is in 'X' state more than 50% of simulation time.  If this is not desired, please provide correct activity rates for better power accuracy.
+WARNING: [Power 33-288] Design net 'in1[2]' is in 'X' state more than 50% of simulation time.  If this is not desired, please provide correct activity rates for better power accuracy.
+WARNING: [Power 33-288] Design net 'in1[3]' is in 'X' state more than 50% of simulation time.  If this is not desired, please provide correct activity rates for better power accuracy.
+WARNING: [Power 33-288] Design net 'in1[4]' is in 'X' state more than 50% of simulation time.  If this is not desired, please provide correct activity rates for better power accuracy.
+WARNING: [Power 33-288] Design net 'in1[5]' is in 'X' state more than 50% of simulation time.  If this is not desired, please provide correct activity rates for better power accuracy.
+WARNING: [Power 33-288] Design net 'in1[6]' is in 'X' state more than 50% of simulation time.  If this is not desired, please provide correct activity rates for better power accuracy.
+WARNING: [Power 33-288] Design net 'in1[7]' is in 'X' state more than 50% of simulation time.  If this is not desired, please provide correct activity rates for better power accuracy.
+WARNING: [Power 33-288] Design net 'in1_IBUF[0]' is in 'X' state more than 50% of simulation time.  If this is not desired, please provide correct activity rates for better power accuracy.
+WARNING: [Power 33-288] Design net 'in1_IBUF[1]' is in 'X' state more than 50% of simulation time.  If this is not desired, please provide correct activity rates for better power accuracy.
+WARNING: [Power 33-288] Design net 'in1_IBUF[2]' is in 'X' state more than 50% of simulation time.  If this is not desired, please provide correct activity rates for better power accuracy.
+WARNING: [Power 33-288] Design net 'in1_IBUF[3]' is in 'X' state more than 50% of simulation time.  If this is not desired, please provide correct activity rates for better power accuracy.
+WARNING: [Power 33-288] Design net 'in1_IBUF[4]' is in 'X' state more than 50% of simulation time.  If this is not desired, please provide correct activity rates for better power accuracy.
+WARNING: [Power 33-288] Design net 'in1_IBUF[5]' is in 'X' state more than 50% of simulation time.  If this is not desired, please provide correct activity rates for better power accuracy.
+WARNING: [Power 33-288] Design net 'in1_IBUF[6]' is in 'X' state more than 50% of simulation time.  If this is not desired, please provide correct activity rates for better power accuracy.
+WARNING: [Power 33-288] Design net 'in1_IBUF[7]' is in 'X' state more than 50% of simulation time.  If this is not desired, please provide correct activity rates for better power accuracy.
+WARNING: [Power 33-288] Design net 'in1_IBUF[8]' is in 'X' state more than 50% of simulation time.  If this is not desired, please provide correct activity rates for better power accuracy.
+WARNING: [Power 33-288] Design net 'in1_IBUF[9]' is in 'X' state more than 50% of simulation time.  If this is not desired, please provide correct activity rates for better power accuracy.
+WARNING: [Power 33-288] Design net 'in1_IBUF[10]' is in 'X' state more than 50% of simulation time.  If this is not desired, please provide correct activity rates for better power accuracy.
+WARNING: [Power 33-288] Design net 'in1_IBUF[11]' is in 'X' state more than 50% of simulation time.  If this is not desired, please provide correct activity rates for better power accuracy.
+WARNING: [Power 33-288] Design net 'in1_IBUF[12]' is in 'X' state more than 50% of simulation time.  If this is not desired, please provide correct activity rates for better power accuracy.
+WARNING: [Power 33-288] Design net 'in1_IBUF[13]' is in 'X' state more than 50% of simulation time.  If this is not desired, please provide correct activity rates for better power accuracy.
+WARNING: [Power 33-288] Design net 'in1_IBUF[14]' is in 'X' state more than 50% of simulation time.  If this is not desired, please provide correct activity rates for better power accuracy.
+WARNING: [Power 33-288] Design net 'in1_IBUF[15]' is in 'X' state more than 50% of simulation time.  If this is not desired, please provide correct activity rates for better power accuracy.
+WARNING: [Power 33-288] Design net 'in2[0]' is in 'X' state more than 50% of simulation time.  If this is not desired, please provide correct activity rates for better power accuracy.
+WARNING: [Power 33-288] Design net 'in2[1]' is in 'X' state more than 50% of simulation time.  If this is not desired, please provide correct activity rates for better power accuracy.
+WARNING: [Power 33-288] Design net 'in2[2]' is in 'X' state more than 50% of simulation time.  If this is not desired, please provide correct activity rates for better power accuracy.
+WARNING: [Power 33-288] Design net 'in2[3]' is in 'X' state more than 50% of simulation time.  If this is not desired, please provide correct activity rates for better power accuracy.
+WARNING: [Power 33-288] Design net 'in2[4]' is in 'X' state more than 50% of simulation time.  If this is not desired, please provide correct activity rates for better power accuracy.
+WARNING: [Power 33-288] Design net 'in2[5]' is in 'X' state more than 50% of simulation time.  If this is not desired, please provide correct activity rates for better power accuracy.
+WARNING: [Power 33-288] Design net 'in2[6]' is in 'X' state more than 50% of simulation time.  If this is not desired, please provide correct activity rates for better power accuracy.
+WARNING: [Power 33-288] Design net 'in2[7]' is in 'X' state more than 50% of simulation time.  If this is not desired, please provide correct activity rates for better power accuracy.
+WARNING: [Power 33-288] Design net 'in2_IBUF[0]' is in 'X' state more than 50% of simulation time.  If this is not desired, please provide correct activity rates for better power accuracy.
+WARNING: [Power 33-288] Design net 'in2_IBUF[1]' is in 'X' state more than 50% of simulation time.  If this is not desired, please provide correct activity rates for better power accuracy.
+WARNING: [Power 33-288] Design net 'in2_IBUF[2]' is in 'X' state more than 50% of simulation time.  If this is not desired, please provide correct activity rates for better power accuracy.
+WARNING: [Power 33-288] Design net 'in2_IBUF[3]' is in 'X' state more than 50% of simulation time.  If this is not desired, please provide correct activity rates for better power accuracy.
+WARNING: [Power 33-288] Design net 'in2_IBUF[4]' is in 'X' state more than 50% of simulation time.  If this is not desired, please provide correct activity rates for better power accuracy.
+WARNING: [Power 33-288] Design net 'in2_IBUF[5]' is in 'X' state more than 50% of simulation time.  If this is not desired, please provide correct activity rates for better power accuracy.
+WARNING: [Power 33-288] Design net 'in2_IBUF[6]' is in 'X' state more than 50% of simulation time.  If this is not desired, please provide correct activity rates for better power accuracy.
+WARNING: [Power 33-288] Design net 'in2_IBUF[7]' is in 'X' state more than 50% of simulation time.  If this is not desired, please provide correct activity rates for better power accuracy.
+WARNING: [Power 33-288] Design net 'in2_IBUF[8]' is in 'X' state more than 50% of simulation time.  If this is not desired, please provide correct activity rates for better power accuracy.
+WARNING: [Power 33-288] Design net 'in2_IBUF[9]' is in 'X' state more than 50% of simulation time.  If this is not desired, please provide correct activity rates for better power accuracy.
+WARNING: [Power 33-288] Design net 'in2_IBUF[10]' is in 'X' state more than 50% of simulation time.  If this is not desired, please provide correct activity rates for better power accuracy.
+WARNING: [Power 33-288] Design net 'in2_IBUF[11]' is in 'X' state more than 50% of simulation time.  If this is not desired, please provide correct activity rates for better power accuracy.
+WARNING: [Power 33-288] Design net 'in2_IBUF[12]' is in 'X' state more than 50% of simulation time.  If this is not desired, please provide correct activity rates for better power accuracy.
+WARNING: [Power 33-288] Design net 'in2_IBUF[13]' is in 'X' state more than 50% of simulation time.  If this is not desired, please provide correct activity rates for better power accuracy.
+WARNING: [Power 33-288] Design net 'in2_IBUF[14]' is in 'X' state more than 50% of simulation time.  If this is not desired, please provide correct activity rates for better power accuracy.
+WARNING: [Power 33-288] Design net 'in2_IBUF[15]' is in 'X' state more than 50% of simulation time.  If this is not desired, please provide correct activity rates for better power accuracy.
+WARNING: [Power 33-288] Design net 'inf' is in 'X' state more than 50% of simulation time.  If this is not desired, please provide correct activity rates for better power accuracy.
+WARNING: [Power 33-288] Design net 'inf_OBUF' is in 'X' state more than 50% of simulation time.  If this is not desired, please provide correct activity rates for better power accuracy.
+WARNING: [Power 33-288] Design net 'mult_m_i_100_n_0' is in 'X' state more than 50% of simulation time.  If this is not desired, please provide correct activity rates for better power accuracy.
+WARNING: [Power 33-288] Design net 'mult_m_i_101_n_0' is in 'X' state more than 50% of simulation time.  If this is not desired, please provide correct activity rates for better power accuracy.
+WARNING: [Power 33-288] Design net 'mult_m_i_102_n_0' is in 'X' state more than 50% of simulation time.  If this is not desired, please provide correct activity rates for better power accuracy.
+WARNING: [Power 33-288] Design net 'mult_m_i_103_n_0' is in 'X' state more than 50% of simulation time.  If this is not desired, please provide correct activity rates for better power accuracy.
+WARNING: [Power 33-288] Design net 'mult_m_i_104_n_0' is in 'X' state more than 50% of simulation time.  If this is not desired, please provide correct activity rates for better power accuracy.
+WARNING: [Power 33-288] Design net 'mult_m_i_105_n_0' is in 'X' state more than 50% of simulation time.  If this is not desired, please provide correct activity rates for better power accuracy.
+WARNING: [Power 33-288] Design net 'mult_m_i_106_n_0' is in 'X' state more than 50% of simulation time.  If this is not desired, please provide correct activity rates for better power accuracy.
+WARNING: [Power 33-288] Design net 'mult_m_i_107_n_0' is in 'X' state more than 50% of simulation time.  If this is not desired, please provide correct activity rates for better power accuracy.
+WARNING: [Power 33-288] Design net 'mult_m_i_108_n_0' is in 'X' state more than 50% of simulation time.  If this is not desired, please provide correct activity rates for better power accuracy.
+WARNING: [Power 33-288] Design net 'mult_m_i_109_n_0' is in 'X' state more than 50% of simulation time.  If this is not desired, please provide correct activity rates for better power accuracy.
+WARNING: [Power 33-288] Design net 'mult_m_i_10_n_0' is in 'X' state more than 50% of simulation time.  If this is not desired, please provide correct activity rates for better power accuracy.
+WARNING: [Power 33-288] Design net 'mult_m_i_110_n_0' is in 'X' state more than 50% of simulation time.  If this is not desired, please provide correct activity rates for better power accuracy.
+WARNING: [Power 33-288] Design net 'mult_m_i_111_n_0' is in 'X' state more than 50% of simulation time.  If this is not desired, please provide correct activity rates for better power accuracy.
+WARNING: [Power 33-288] Design net 'mult_m_i_112_n_0' is in 'X' state more than 50% of simulation time.  If this is not desired, please provide correct activity rates for better power accuracy.
+WARNING: [Power 33-288] Design net 'mult_m_i_113_n_0' is in 'X' state more than 50% of simulation time.  If this is not desired, please provide correct activity rates for better power accuracy.
+WARNING: [Power 33-288] Design net 'mult_m_i_114_n_0' is in 'X' state more than 50% of simulation time.  If this is not desired, please provide correct activity rates for better power accuracy.
+WARNING: [Power 33-288] Design net 'mult_m_i_115_n_0' is in 'X' state more than 50% of simulation time.  If this is not desired, please provide correct activity rates for better power accuracy.
+WARNING: [Power 33-288] Design net 'mult_m_i_116_n_0' is in 'X' state more than 50% of simulation time.  If this is not desired, please provide correct activity rates for better power accuracy.
+WARNING: [Power 33-288] Design net 'mult_m_i_117_n_0' is in 'X' state more than 50% of simulation time.  If this is not desired, please provide correct activity rates for better power accuracy.
+WARNING: [Power 33-288] Design net 'mult_m_i_118_n_0' is in 'X' state more than 50% of simulation time.  If this is not desired, please provide correct activity rates for better power accuracy.
+WARNING: [Power 33-288] Design net 'mult_m_i_119_n_0' is in 'X' state more than 50% of simulation time.  If this is not desired, please provide correct activity rates for better power accuracy.
+WARNING: [Power 33-288] Design net 'mult_m_i_11_n_0' is in 'X' state more than 50% of simulation time.  If this is not desired, please provide correct activity rates for better power accuracy.
+WARNING: [Power 33-288] Design net 'mult_m_i_120_n_0' is in 'X' state more than 50% of simulation time.  If this is not desired, please provide correct activity rates for better power accuracy.
+WARNING: [Power 33-288] Design net 'mult_m_i_121_n_0' is in 'X' state more than 50% of simulation time.  If this is not desired, please provide correct activity rates for better power accuracy.
+INFO: [Common 17-14] Message 'Power 33-288' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+INFO: [Power 33-177] SAIF annotation done from file /home/ecelrc/students/nroy1/posit/Posit_project/Posit_project.sim/sim_2/impl/func/xsim/power_Posit_Mult_impl.saif
+INFO: [Power 33-26] Design nets matched = 19 of 500
+read_saif: Time (s): cpu = 00:00:13 ; elapsed = 00:00:11 . Memory (MB): peak = 8010.891 ; gain = 168.098 ; free physical = 153386 ; free virtual = 321550
+report_power -file {/home/ecelrc/students/nroy1/posit/Posit_project/Power_Posit_Mult_implementation.pwr} -name {power_1}
+Command: report_power -file /home/ecelrc/students/nroy1/posit/Posit_project/Power_Posit_Mult_implementation.pwr -name power_1
+4% of nets annotated
+Doing probabilistic computation for the remaining nets
+
+0 Infos, 0 Warnings, 0 Critical Warnings and 0 Errors encountered.
+report_power completed successfully
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+exit
+INFO: [Common 17-206] Exiting Vivado at Tue Apr 19 16:16:37 2022...

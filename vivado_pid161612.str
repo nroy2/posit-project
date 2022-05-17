@@ -1,0 +1,267 @@
+/*
+
+Xilinx Vivado v2018.3 (64-bit) [Major: 2018, Minor: 3]
+SW Build: 2405991 on Thu Dec  6 23:36:41 MST 2018
+IP Build: 2404404 on Fri Dec  7 01:43:56 MST 2018
+
+Process ID (PID): 161612
+License: Customer
+
+Current time: 	Tue Apr 19 19:45:56 CDT 2022
+Time zone: 	Central Standard Time (America/Chicago)
+
+OS: CentOS Linux release 7.9.2009 (Core)
+OS Version: 3.10.0-1160.59.1.el7.x86_64
+OS Architecture: amd64
+Available processors (cores): 64
+
+Display: localhost:11.0
+Screen size: 2560x1440
+Screen resolution (DPI): 96
+Available screens: 2
+Available disk space: 32 GB
+Default font: family=Dialog,name=Dialog,style=plain,size=12
+
+Java version: 	9.0.4 64-bit
+Java home: 	/misc/linuxws/packages/xilinx_2018/vivado_hl/Vivado/2018.3/tps/lnx64/jre9.0.4
+Java executable location: 	/misc/linuxws/packages/xilinx_2018/vivado_hl/Vivado/2018.3/tps/lnx64/jre9.0.4/bin/java
+Java initial memory (-Xms): 	128 MB
+Java maximum memory (-Xmx):	 3 GB
+
+
+User name: 	nroy1
+User home directory: /home/ecelrc/students/nroy1
+User working directory: /home/ecelrc/students/nroy1/posit
+User country: 	US
+User language: 	en
+User locale: 	en_US
+
+RDI_BASEROOT: /misc/linuxws/packages/xilinx_2018/vivado_hl/Vivado
+HDI_APPROOT: /usr/local/packages/xilinx_2018/vivado_hl/Vivado/2018.3
+RDI_DATADIR: /misc/linuxws/packages/xilinx_2018/vivado_hl/Vivado/2018.3/data
+RDI_BINDIR: /misc/linuxws/packages/xilinx_2018/vivado_hl/Vivado/2018.3/bin
+
+Vivado preferences file location: /home/ecelrc/students/nroy1//.Xilinx/Vivado/2018.3/vivado.xml
+Vivado preferences directory: /home/ecelrc/students/nroy1//.Xilinx/Vivado/2018.3/
+Vivado layouts directory: /home/ecelrc/students/nroy1/.Xilinx/Vivado/2018.3/layouts
+PlanAhead jar file location: 	/misc/linuxws/packages/xilinx_2018/vivado_hl/Vivado/2018.3/lib/classes/planAhead.jar
+Vivado log file location: 	/home/ecelrc/students/nroy1/posit/vivado.log
+Vivado journal file location: 	/home/ecelrc/students/nroy1/posit/vivado.jou
+Engine tmp dir: 	./.Xil/Vivado-161612-kamek.ece.utexas.edu
+
+Xilinx Environment Variables
+----------------------------
+XILINX: /usr/local/packages/xilinx_2018/vivado_hl/Vivado/2018.3/ids_lite/ISE
+XILINXD_LICENSE_FILE: 2100@harrison.ece.utexas.edu
+XILINXD_LICENSE_FILE_modshare: 2100@harrison.ece.utexas.edu:1
+XILINX_DSP: /usr/local/packages/xilinx_2018/vivado_hl/Vivado/2018.3/ids_lite/ISE
+XILINX_PLANAHEAD: /usr/local/packages/xilinx_2018/vivado_hl/Vivado/2018.3
+XILINX_SDK: /usr/local/packages/xilinx_2018/vivado_hl/SDK/2018.3
+XILINX_VIVADO: /usr/local/packages/xilinx_2018/vivado_hl/Vivado/2018.3
+XILINX_VIVADO_HLS: /usr/local/packages/xilinx_2018/vivado_hl/Vivado/2018.3
+
+
+GUI allocated memory:	154 MB
+GUI max memory:		3,072 MB
+Engine allocated memory: 5,243 MB
+
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+*/
+
+// TclEventType: START_GUI
+// Tcl Message: start_gui 
+// HMemoryUtils.trashcanNow. Engine heap size: 5,274 MB. GUI used memory: 44 MB. Current time: 4/19/22, 7:45:58 PM CDT
+selectList(PAResourceQtoS.SyntheticaGettingStartedView_RECENT_PROJECTS, "/home/ecelrc/students/nroy1/posit/Posit_project/Posit_project.xpr", 0); // q (Q, cp)
+// [GUI Memory]: 88 MB (+89994kb) [00:00:25]
+// [Engine Memory]: 5,282 MB (+5386807kb) [00:00:25]
+// Opening Vivado Project: /home/ecelrc/students/nroy1/posit/Posit_project/Posit_project.xpr. Version: Vivado v2018.3 
+// bx (cp):  Open Project : addNotify
+// WARNING: HEventQueue.dispatchEvent() is taking  3338 ms.
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// Tcl Message: open_project /home/ecelrc/students/nroy1/posit/Posit_project/Posit_project.xpr 
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_DASHBOARD_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_NEW
+// Tcl Message: open_project /home/ecelrc/students/nroy1/posit/Posit_project/Posit_project.xpr 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified 
+// TclEventType: PROJECT_NEW
+// [GUI Memory]: 109 MB (+17566kb) [00:00:34]
+// [GUI Memory]: 125 MB (+10505kb) [00:00:34]
+// WARNING: HEventQueue.dispatchEvent() is taking  2461 ms.
+// Tcl Message: INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/usr/local/packages/xilinx_2018/vivado_hl/Vivado/2018.3/data/ip'. 
+// HMemoryUtils.trashcanNow. Engine heap size: 5,519 MB. GUI used memory: 72 MB. Current time: 4/19/22, 7:46:16 PM CDT
+// Project name: Posit_project; location: /home/ecelrc/students/nroy1/posit/Posit_project; part: xc7z020clg484-1
+// Tcl Message: open_project: Time (s): cpu = 00:00:19 ; elapsed = 00:00:07 . Memory (MB): peak = 6849.207 ; gain = 210.793 ; free physical = 151750 ; free virtual = 319973 
+// Elapsed time: 13 seconds
+dismissDialog("Open Project"); // bx (cp)
+// [Engine Memory]: 5,551 MB (+5159kb) [00:00:41]
+// Tcl Message: update_compile_order -fileset sources_1 
+// PAPropertyPanels.initPanels (posit_mult.v) elapsed time: 0.2s
+// Elapsed time: 16 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, posit_mult (posit_mult.v)]", 4, true); // B (D, cp) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, posit_mult (posit_mult.v)]", 4, true, false, false, false, true, false); // B (D, cp) - Popup Trigger - Node
+selectMenu(PAResourceCommand.PACommandNames_AUTO_UPDATE_HIER, "Hierarchy Update"); // ac (al, cp)
+selectMenu(PAResourceQtoS.SrcMenu_IP_HIERARCHY, "IP Hierarchy"); // ac (al, cp)
+selectMenuItem(PAResourceCommand.PACommandNames_SET_AS_TOP, "Set as Top"); // af (al, cp)
+// Run Command: PAResourceCommand.PACommandNames_SET_AS_TOP
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// Tcl Message: set_property top posit_mult [current_fileset] 
+// bx (cp):  Set as Top : addNotify
+// WARNING: HEventQueue.dispatchEvent() is taking  3209 ms.
+// TclEventType: DG_GRAPH_STALE
+dismissDialog("Set as Top"); // bx (cp)
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: update_compile_order -fileset sources_1 
+// HMemoryUtils.trashcanNow. Engine heap size: 5,587 MB. GUI used memory: 74 MB. Current time: 4/19/22, 7:46:54 PM CDT
+// Elapsed time: 10 seconds
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources]", 17); // B (D, cp)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_2]", 18); // B (D, cp)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_2, posit_mult_8bit_tb_v (posit_mult_8bit_tb.v)]", 23, true); // B (D, cp) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_2, posit_mult_8bit_tb_v (posit_mult_8bit_tb.v)]", 23, true, false, false, false, true, false); // B (D, cp) - Popup Trigger - Node
+selectMenu(PAResourceCommand.PACommandNames_AUTO_UPDATE_HIER, "Hierarchy Update"); // ac (al, cp)
+selectMenu(PAResourceQtoS.SrcMenu_IP_HIERARCHY, "IP Hierarchy"); // ac (al, cp)
+selectMenuItem(PAResourceCommand.PACommandNames_SET_AS_TOP, "Set as Top"); // af (al, cp)
+// Run Command: PAResourceCommand.PACommandNames_SET_AS_TOP
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Tcl Message: set_property top posit_mult_8bit_tb_v [get_filesets sim_2] 
+// bx (cp):  Set as Top : addNotify
+// WARNING: HEventQueue.dispatchEvent() is taking  3155 ms.
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// Tcl Message: set_property top_lib xil_defaultlib [get_filesets sim_2] 
+// TclEventType: DG_GRAPH_STALE
+dismissDialog("Set as Top"); // bx (cp)
+// [GUI Memory]: 133 MB (+1742kb) [00:01:32]
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: update_compile_order -fileset sim_2 
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Run Synthesis]", 14, false, false, false, false, true, false); // u (Q, cp) - Popup Trigger
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Run Synthesis]", 14, false); // u (Q, cp)
+// Run Command: PAResourceCommand.PACommandNames_RUN_SYNTHESIS
+// A (cp): Run Synthesis: addNotify
+// WARNING: HEventQueue.dispatchEvent() is taking  3129 ms.
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (A)
+// bx (cp):  Resetting Runs : addNotify
+// WARNING: HEventQueue.dispatchEvent() is taking  3619 ms.
+// TclEventType: RUN_MODIFY
+dismissDialog("Run Synthesis"); // A (cp)
+// TclEventType: RUN_RESET
+// Tcl Message: reset_run synth_1 
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// f (cp): Launch Runs: addNotify
+// WARNING: HEventQueue.dispatchEvent() is taking  3486 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1851 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  2992 ms.
+// Elapsed time: 22 seconds
+selectRadioButton(PAResourceItoN.LaunchPanel_LAUNCH_RUNS_ON_REMOTE_HOSTS, "Launch runs on remote hosts"); // a (Q, f)
+selectRadioButton(PAResourceItoN.LaunchPanel_LAUNCH_RUNS_ON_REMOTE_HOSTS, "Launch runs on remote hosts"); // a (Q, f)
+selectRadioButton(PAResourceItoN.LaunchPanel_LAUNCH_RUNS_USING_LSF, "Launch runs using LSF"); // a (Q, f)
+selectRadioButton(PAResourceItoN.LaunchPanel_GENERATE_SCRIPTS_ONLY, "Generate scripts only"); // a (Q, f)
+selectRadioButton(PAResourceItoN.LaunchPanel_LAUNCH_RUNS_ON_LOCAL_HOST, "Launch runs on local host:"); // a (Q, f)
+selectButton(RDIResource.BaseDialog_CANCEL, "Cancel"); // a (f)
+// 'k' command handler elapsed time: 37 seconds
+dismissDialog("Launch Runs"); // f (cp)
+closeMainWindow("Posit_project - [/home/ecelrc/students/nroy1/posit/Posit_project/Posit_project.xpr] - Vivado 2018.3"); // cp
+// A (cp): Exit Vivado: addNotify
+// WARNING: HEventQueue.dispatchEvent() is taking  3113 ms.
+selectButton(RDIResource.BaseDialog_CANCEL, "Cancel"); // a (A)
+dismissDialog("Exit Vivado"); // A (cp)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Run Synthesis]", 14, false); // u (Q, cp)
+// Run Command: PAResourceCommand.PACommandNames_RUN_SYNTHESIS
+// bx (cp):  Resetting Runs : addNotify
+// WARNING: HEventQueue.dispatchEvent() is taking  3179 ms.
+// f (cp): Launch Runs: addNotify
+// WARNING: HEventQueue.dispatchEvent() is taking  3262 ms.
+selectButton(RDIResource.BaseDialog_CANCEL, "Cancel"); // a (f)
+// 'k' command handler elapsed time: 9 seconds
+dismissDialog("Launch Runs"); // f (cp)
+// Elapsed time: 90 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, posit_mult (posit_mult.v)]", 2, true, false, false, false, true, false); // B (D, cp) - Popup Trigger - Node
+selectMenu(PAResourceCommand.PACommandNames_AUTO_UPDATE_HIER, "Hierarchy Update"); // ac (al, cp)
+selectMenu(PAResourceQtoS.SrcMenu_IP_HIERARCHY, "IP Hierarchy"); // ac (al, cp)
+selectMenu(PAResourceQtoS.SrcMenu_IP_HIERARCHY, "IP Hierarchy"); // ac (al, cp)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, posit_mult (posit_mult.v)]", 2); // B (D, cp)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, posit_mult (posit_mult.v), uut_de1 : data_extract (data_extract.v)]", 3); // B (D, cp)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, posit_mult (posit_mult.v), uut_de1 : data_extract (data_extract.v), xinst_k0 : LOD_N (LOD_N.v)]", 4); // B (D, cp)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, posit_mult (posit_mult.v), uut_de1 : data_extract (data_extract.v), xinst_k0 : LOD_N (LOD_N.v), l1 : LOD (LOD_N.v)]", 5); // B (D, cp)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, posit_mult (posit_mult.v), uut_de1 : data_extract (data_extract.v), xinst_k0 : LOD_N (LOD_N.v), l1 : LOD (LOD_N.v), genblk1.l : LOD (LOD_N.v)]", 6); // B (D, cp)
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, posit_mult (posit_mult.v), uut_de1 : data_extract (data_extract.v), xinst_k0 : LOD_N (LOD_N.v), l1 : LOD (LOD_N.v), genblk1.l : LOD (LOD_N.v)]", 6); // B (D, cp)
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, posit_mult (posit_mult.v), uut_de1 : data_extract (data_extract.v), xinst_k0 : LOD_N (LOD_N.v), l1 : LOD (LOD_N.v)]", 5); // B (D, cp)
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, posit_mult (posit_mult.v), uut_de1 : data_extract (data_extract.v), xinst_k0 : LOD_N (LOD_N.v)]", 4); // B (D, cp)
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, posit_mult (posit_mult.v), uut_de1 : data_extract (data_extract.v)]", 3); // B (D, cp)
+// HMemoryUtils.trashcanNow. Engine heap size: 5,607 MB. GUI used memory: 77 MB. Current time: 4/19/22, 7:50:29 PM CDT
+closeView(PAResourceOtoP.PAViews_CODE, "Code"); // B
+// Elapsed time: 145 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Run Synthesis]", 14, false); // u (Q, cp)
+// Run Command: PAResourceCommand.PACommandNames_RUN_SYNTHESIS
+// bx (cp):  Resetting Runs : addNotify
+// WARNING: HEventQueue.dispatchEvent() is taking  3292 ms.
+// f (cp): Launch Runs: addNotify
+// WARNING: HEventQueue.dispatchEvent() is taking  3061 ms.
+// Elapsed time: 12 seconds
+selectButton(RDIResource.BaseDialog_CANCEL, "Cancel"); // a (f)
+// 'k' command handler elapsed time: 12 seconds
+dismissDialog("Launch Runs"); // f (cp)
+// Elapsed time: 58 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, posit_mult (posit_mult.v)]", 2, true, false, false, false, true, false); // B (D, cp) - Popup Trigger - Node
+selectMenu(PAResourceCommand.PACommandNames_AUTO_UPDATE_HIER, "Hierarchy Update"); // ac (al, cp)
+selectMenu(PAResourceQtoS.SrcMenu_IP_HIERARCHY, "IP Hierarchy"); // ac (al, cp)
+selectMenu(PAResourceCommand.PACommandNames_AUTO_UPDATE_HIER, "Hierarchy Update"); // ac (al, cp)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, posit_adder (posit_adder.v)]", 6, true); // B (D, cp) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, posit_adder (posit_adder.v)]", 6, true, false, false, false, true, false); // B (D, cp) - Popup Trigger - Node
+// Elapsed time: 22 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, LOD_N (posit_adder.v)]", 12, false, false, false, false, true, false); // B (D, cp) - Popup Trigger
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, posit_mult (posit_mult.v)]", 2, true, false, false, false, true, false); // B (D, cp) - Popup Trigger - Node
+selectMenu(PAResourceCommand.PACommandNames_AUTO_UPDATE_HIER, "Hierarchy Update"); // ac (al, cp)
+selectMenu(PAResourceQtoS.SrcMenu_IP_HIERARCHY, "IP Hierarchy"); // ac (al, cp)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, posit_adder (posit_adder.v)]", 6, true); // B (D, cp) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, posit_adder (posit_adder.v)]", 6, true, false, false, false, true, false); // B (D, cp) - Popup Trigger - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_2, posit_mult_8bit_tb_v (posit_mult_8bit_tb.v)]", 23, true); // B (D, cp) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_2, posit_mult_8bit_tb_v (posit_mult_8bit_tb.v)]", 23, true, false, false, false, true, false); // B (D, cp) - Popup Trigger - Node
+selectMenu(PAResourceCommand.PACommandNames_AUTO_UPDATE_HIER, "Hierarchy Update"); // ac (al, cp)
+selectMenu(PAResourceQtoS.SrcMenu_IP_HIERARCHY, "IP Hierarchy"); // ac (al, cp)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_2, posit_adder_8bit_tb_v (posit_adder_8bit_tb.v)]", 26, true); // B (D, cp) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_2, posit_adder_8bit_tb_v (posit_adder_8bit_tb.v)]", 26, true, false, false, false, true, false); // B (D, cp) - Popup Trigger - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, posit_adder (posit_adder.v)]", 6, true); // B (D, cp) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, posit_adder (posit_adder.v)]", 6, true, false, false, false, true, false); // B (D, cp) - Popup Trigger - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, add_mantovf (posit_adder.v)]", 16, false); // B (D, cp)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, add_mantovf (posit_adder.v)]", 16, false, false, false, false, true, false); // B (D, cp) - Popup Trigger
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, posit_mult (posit_mult.v)]", 2, true, false, false, false, true, false); // B (D, cp) - Popup Trigger - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, LZD_N (posit_adder.v)]", 14, false); // B (D, cp)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, LZD_N (posit_adder.v)]", 14, false, false, false, false, true, false); // B (D, cp) - Popup Trigger
+selectMenu(PAResourceCommand.PACommandNames_AUTO_UPDATE_HIER, "Hierarchy Update"); // ac (al, cp)
+selectMenu(PAResourceQtoS.SrcMenu_IP_HIERARCHY, "IP Hierarchy"); // ac (al, cp)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, posit_mult (posit_mult.v)]", 2, true); // B (D, cp) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, posit_mult (posit_mult.v)]", 2, true, false, false, false, true, false); // B (D, cp) - Popup Trigger - Node
+selectMenu(PAResourceCommand.PACommandNames_AUTO_UPDATE_HIER, "Hierarchy Update"); // ac (al, cp)
+selectMenu(PAResourceQtoS.SrcMenu_IP_HIERARCHY, "IP Hierarchy"); // ac (al, cp)
+selectMenuItem(PAResourceCommand.PACommandNames_CREATE_OUT_OF_CONTEXT_FILESET, "Set as Out-of-Context for Synthesis..."); // af (al, cp)
+selectMenu(PAResourceQtoS.SrcMenu_IP_HIERARCHY, "IP Hierarchy"); // ac (al, cp)
+selectMenu(PAResourceQtoS.SrcMenu_IP_HIERARCHY, "IP Hierarchy"); // ac (al, cp)
+selectMenu(PAResourceCommand.PACommandNames_AUTO_UPDATE_HIER, "Hierarchy Update"); // ac (al, cp)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, posit_mult (posit_mult.v)]", 2, true, false, false, false, true, false); // B (D, cp) - Popup Trigger - Node
+selectMenu(PAResourceCommand.PACommandNames_AUTO_UPDATE_HIER, "Hierarchy Update"); // ac (al, cp)
+selectMenu(PAResourceQtoS.SrcMenu_IP_HIERARCHY, "IP Hierarchy"); // ac (al, cp)
+// HMemoryUtils.trashcanNow. Engine heap size: 5,607 MB. GUI used memory: 77 MB. Current time: 4/19/22, 8:20:29 PM CDT

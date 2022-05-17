@@ -1,0 +1,10 @@
+0.6
+2018.3
+Dec  6 2018
+23:39:36
+/home/ecelrc/students/nroy1/posit/Posit_project/Posit_project.sim/sim_2/behav/xsim/glbl.v,1544155481,verilog,,,,glbl,,,,,,,,
+/home/ecelrc/students/nroy1/posit/Posit_project/Posit_project.srcs/sim_2/imports/positfiles/FP_to_Posit_tb.v,1646786051,verilog,,,,FP_to_posit_tb_v,,,,,,,,
+/home/ecelrc/students/nroy1/posit/Posit_project/Posit_project.srcs/sources_1/imports/positfiles/DSR_left_N_S.v,1646780504,verilog,,/home/ecelrc/students/nroy1/posit/Posit_project/Posit_project.srcs/sources_1/imports/positfiles/DSR_right_N_S.v,,DSR_left_N_S,,,,,,,,
+/home/ecelrc/students/nroy1/posit/Posit_project/Posit_project.srcs/sources_1/imports/positfiles/DSR_right_N_S.v,1646780504,verilog,,/home/ecelrc/students/nroy1/posit/Posit_project/Posit_project.srcs/sources_1/imports/positfiles/FP_to_Posit.v,,DSR_right_N_S,,,,,,,,
+/home/ecelrc/students/nroy1/posit/Posit_project/Posit_project.srcs/sources_1/imports/positfiles/FP_to_Posit.v,1646780504,verilog,,/home/ecelrc/students/nroy1/posit/Posit_project/Posit_project.srcs/sources_1/imports/positfiles/LOD_N.v,,FP_to_posit,,,,,,,,
+/home/ecelrc/students/nroy1/posit/Posit_project/Posit_project.srcs/sources_1/imports/positfiles/LOD_N.v,1646780504,verilog,,/home/ecelrc/students/nroy1/posit/Posit_project/Posit_project.srcs/sim_2/imports/positfiles/FP_to_Posit_tb.v,,LOD;LOD_N,,,,,,,,

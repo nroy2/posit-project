@@ -1,0 +1,3 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/ecelrc/students/nroy1/posit/Posit_project/Posit_project.sim/sim_2/impl/func/xsim/FP_to_posit_tb_v_func_impl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module FP_to_posit
+INFO: [VRFC 10-311] analyzing module glbl

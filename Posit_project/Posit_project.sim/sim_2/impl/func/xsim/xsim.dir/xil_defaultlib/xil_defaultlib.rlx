@@ -1,0 +1,9 @@
+0.6
+2018.3
+Dec  6 2018
+23:39:36
+/home/ecelrc/students/nroy1/posit/Posit_project/Posit_project.sim/sim_2/impl/func/xsim/FP_to_posit_tb_v_func_impl.v,1650410918,verilog,,/home/ecelrc/students/nroy1/posit/Posit_project/Posit_project.srcs/sim_2/imports/positfiles/FP_to_Posit_tb.v,,FP_to_posit;glbl,,,,,,,,
+/home/ecelrc/students/nroy1/posit/Posit_project/Posit_project.srcs/sim_2/imports/positfiles/FP_to_Posit_tb.v,1649218733,verilog,,,,FP_to_posit_tb_v,,,,,,,,
+/home/ecelrc/students/nroy1/posit/Posit_project/Posit_project.srcs/sim_2/imports/positfiles/Posit_to_FP_tb.v,1646780504,verilog,,,,Posit_to_FP_tb_v,,,,,,,,
+/home/ecelrc/students/nroy1/posit/Posit_project/Posit_project.srcs/sim_2/imports/positfiles/posit_adder_8bit_tb.v,1646780504,verilog,,,,posit_adder_8bit_tb_v,,,,,,,,
+/home/ecelrc/students/nroy1/posit/Posit_project/Posit_project.srcs/sim_2/imports/positfiles/posit_mult_8bit_tb.v,1646780504,verilog,,,,posit_mult_8bit_tb_v,,,,,,,,

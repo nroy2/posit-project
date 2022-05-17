@@ -1,0 +1,31 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:36:41 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Tue Apr 19 15:53:50 2022
+# Process ID: 24205
+# Current directory: /home/ecelrc/students/nroy1/posit
+# Command line: vivado
+# Log file: /home/ecelrc/students/nroy1/posit/vivado.log
+# Journal file: /home/ecelrc/students/nroy1/posit/vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project /home/ecelrc/students/nroy1/posit/Posit_project/Posit_project.xpr
+update_compile_order -fileset sources_1
+file mkdir /home/ecelrc/students/nroy1/posit/Posit_project/Posit_project.srcs/constrs_1
+file mkdir /home/ecelrc/students/nroy1/posit/Posit_project/Posit_project.srcs/constrs_1/new
+close [ open /home/ecelrc/students/nroy1/posit/Posit_project/Posit_project.srcs/constrs_1/new/constraint.xdc w ]
+add_files -fileset constrs_1 /home/ecelrc/students/nroy1/posit/Posit_project/Posit_project.srcs/constrs_1/new/constraint.xdc
+reset_run synth_1
+launch_runs synth_1 -jobs 32
+wait_on_run synth_1
+launch_runs impl_1 -jobs 32
+wait_on_run impl_1
+open_run impl_1
+launch_simulation -simset [get_filesets sim_2 ] -mode post-implementation -type functional
+open_wave_config /home/ecelrc/students/nroy1/posit/Posit_project/FP_to_posit_tb_v_behav.wcfg
+source posit_mult_8bit_tb_v.tcl
+set_operating_conditions -process maximum
+read_saif {/home/ecelrc/students/nroy1/posit/Posit_project/Posit_project.sim/sim_2/impl/func/xsim/power_Posit_Mult_impl.saif}
+report_power -file {/home/ecelrc/students/nroy1/posit/Posit_project/Power_Posit_Mult_implementation.pwr} -name {power_1}
+close_sim

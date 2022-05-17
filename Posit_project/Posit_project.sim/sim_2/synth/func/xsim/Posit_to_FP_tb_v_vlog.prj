@@ -1,0 +1,7 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"Posit_to_FP_tb_v_func_synth.v" \
+"../../../../../Posit_project.srcs/sim_2/imports/positfiles/Posit_to_FP_tb.v" \
+
+# Do not sort compile order
+nosort

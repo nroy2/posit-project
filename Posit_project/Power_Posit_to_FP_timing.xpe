@@ -1,0 +1,72 @@
+<?xml version="1.0"?>
+<POWERDATA author="Vivado Power Analysis" dataVersion="2018.3" design="Posit_to_FP" designState="synthesized" date="Wed Apr  6 00:07:07 2022" pwrOpt="None" activityLevel="simulation">
+	<ENVIRONMENT>
+		<DEVICE part="xc7z020" grade="commercial" package="clg484" speed="-1" process="maximum" vid="No">
+		</DEVICE>
+		<VOLTAGESOURCES>
+			<SOURCE name="Vcco18" voltage="1.800000" icc="0.000113" iccq="0.001000" power="0.002004">
+			</SOURCE>
+			<SOURCE name="Vccbram" voltage="1.000000" icc="0.000000" iccq="0.001192" power="0.001192">
+			</SOURCE>
+			<SOURCE name="Vccint" voltage="1.000000" icc="0.000273" iccq="0.036272" power="0.036545">
+			</SOURCE>
+			<SOURCE name="Vccaux" voltage="1.800000" icc="0.000016" iccq="0.020715" power="0.037315">
+			</SOURCE>
+			<SOURCE name="Vccpint" voltage="1.000000" icc="0.000000" iccq="0.079091" power="0.079091">
+			</SOURCE>
+			<SOURCE name="Vccpaux" voltage="1.800000" icc="0.000000" iccq="0.020660" power="0.037188">
+			</SOURCE>
+			<SOURCE name="Vccpll" voltage="1.800000" icc="0.000000" iccq="0.006000" power="0.010800">
+			</SOURCE>
+			<SOURCE name="Vccadc" voltage="1.800000" icc="0.000000" iccq="0.025000" power="0.045000">
+			</SOURCE>
+		</VOLTAGESOURCES>
+		<THERMAL>
+			<AMBIENT value="25.000000">
+			</AMBIENT>
+			<AIRFLOW value="250.000000">
+			</AIRFLOW>
+			<HEATSINK value="none">
+			</HEATSINK>
+			<BOARDSELECTION value="medium (10&quot;x10&quot;)">
+			</BOARDSELECTION>
+			<BOARDLAYERS value="8to11 (8 to 11 Layers)">
+			</BOARDLAYERS>
+			<TSA value="0.000000">
+			</TSA>
+			<TJB value="7.400000">
+			</TJB>
+			<BOARDTEMP value="25.0 (C)">
+			</BOARDTEMP>
+			<JUNCTION value="27.9 (C)">
+			</JUNCTION>
+		</THERMAL>
+	</ENVIRONMENT>
+	<BLOCKDETAILS>
+		<BYTYPE>
+			<BLOCKTYPE name="LOGIC">
+				<LOGIC clock="Unclocked_or_HFN_instance" clockFreq="100000.000000" clockFreq2="15.610168" toggleRate="0.006418" toggleRate2="0.020120" totalRate="0.503000" name="Unassigned_Clock" hierName="Posit_to_FP" writeRate="0.000000" enableRate="0.000000" fanout="2.752747" ru="0.000000" fanout2="3.714286" totalFanout="501.000000" fanoutRate="521.499998" numNets="206" extNets="182" carry4s="4" luts="150" logicCap="31721200" signalCap="68216.560181" power="0.000153" sp="0.000064">
+				</LOGIC>
+			</BLOCKTYPE>
+			<BLOCKTYPE name="IO">
+				<MODULE name="in&lt;0:15&gt;" count="16">
+					<GROUPSUMMARY>
+						<IO name="in&lt;0:15&gt;" clock="N/A" clockFreq="0.000000" ioStandard="LVCMOS18" bidis="0" inputs="16" outputs="0" signalRate="11.000000" toggleRate="0.011000" dataRate="ASYNC" serdes="No" preEmphasis="No" ioDelay="No" ibufLowPower="No" inTerm="RTT_NONE" outTerm="NONE" ibufDisable="0.000000" dcitermDisable="0.000000" vccInt="0.000057" vccAux="0.000000" vcco="0.000042" vccoCurrent="0.000023" extTerm="NONE">
+						</IO>
+					</GROUPSUMMARY>
+				</MODULE>
+				<MODULE name="out&lt;0:15&gt;" count="16">
+					<GROUPSUMMARY>
+						<IO name="out&lt;0:15&gt;" clock="N/A" clockFreq="0.000000" ioStandard="LVCMOS18_12_SLOW" bidis="0" inputs="0" outputs="16" signalRate="0.625000" toggleRate="0.000625" outputEnableRate="1.000000" outputLoad="0.000000" dataRate="ASYNC" serdes="No" preEmphasis="No" ioDelay="No" ibufLowPower="No" inTerm="NONE" outTerm="RDRV_NONE_NONE" ibufDisable="0.000000" dcitermDisable="0.000000" vccInt="0.000000" vccAux="0.000028" vcco="0.000162" vccoCurrent="0.000090" extTerm="NONE">
+						</IO>
+					</GROUPSUMMARY>
+				</MODULE>
+			</BLOCKTYPE>
+			<BLOCKTYPE name="IOBANK">
+				<IOBANK numInternalVref="0" numDelayControl="0" numLVDSBanks="0">
+				</IOBANK>
+			</BLOCKTYPE>
+		</BYTYPE>
+	</BLOCKDETAILS>
+</POWERDATA>
+

@@ -1,0 +1,20 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:36:41 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Wed Apr  6 09:40:43 2022
+# Process ID: 82818
+# Current directory: /home/ecelrc/students/nroy1/posit
+# Command line: vivado
+# Log file: /home/ecelrc/students/nroy1/posit/vivado.log
+# Journal file: /home/ecelrc/students/nroy1/posit/vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project /home/ecelrc/students/nroy1/posit/Posit_project/Posit_project.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/usr/local/packages/xilinx_2018/vivado_hl/Vivado/2018.3/data/ip'.
+open_project: Time (s): cpu = 00:00:22 ; elapsed = 00:00:14 . Memory (MB): peak = 6760.387 ; gain = 144.293 ; free physical = 154886 ; free virtual = 281369
+update_compile_order -fileset sources_1
